@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#ffffff"><title>Login | Move Pilates & Bem-estar</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-move.svg"><link rel="stylesheet" href="assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="app.css">
+<script defer src="assets/vendor/bootstrap.bundle.min.js"></script><script defer src="script.js"></script><script defer src="store.js"></script><script defer src="app.js"></script></head>
+<body data-page="login"><a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+  <header class="site-header"><div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Move — Início"><img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="154" height="62"></a>
+    <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="main-nav" id="menu-principal" aria-label="Menu principal"><a href="index.html" class="nav-item">Início</a><a href="contato.html" class="nav-item">Contato</a><a href="login.html" class="nav-item nav-login">Entrar</a></nav>
+  </div></header>
+<main id="conteudo"><section class="auth-outer"><div class="auth-panel card-elevated">
+<img src="assets/logo-move.svg" alt="Move — Pilates & Bem-estar" class="auth-logo">
+<div class="section-heading-tight"><span class="accent-line" aria-hidden="true"></span><h1>Entrar</h1><p>Acesse seus agendamentos com e-mail e senha.</p></div>
+<form id="login-form" class="stack-form" novalidate>
+<div class="form-field"><label for="login-email">E-mail <span aria-hidden="true">*</span></label><input id="login-email" name="email" type="email" autocomplete="username" placeholder="Digite seu e-mail" required></div>
+<div class="form-field"><label for="login-password">Senha <span aria-hidden="true">*</span></label><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Digite sua senha" required></div>
+<p class="form-alert" id="login-error" role="alert" hidden></p>
+<button class="btn-main btn-full" type="submit">Entrar</button>
+</form>
+<p class="auth-switch">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+<details class="demo-credentials"><summary>Contas de demonstração (para testar)</summary>
+<p>Selecione um perfil para preencher automaticamente os campos:</p>
+<div class="demo-buttons"><button type="button" class="btn-outline btn-sm" data-demo="aluno">Testar como Aluno</button><button type="button" class="btn-outline btn-sm" data-demo="admin">Testar como Administradora</button></div>
+<span>Senha das duas contas: <strong>Move@2026</strong>. Use apenas dados fictícios; este é um protótipo sem servidor.</span></details>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html"><img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="136" height="56"></a><p>© <span id="ano-atual">2026</span> Move. Projeto acadêmico demonstrativo.</p><a class="footer-top" href="index.html">Início</a></div></footer>
+</body></html>

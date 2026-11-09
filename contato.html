@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#ffffff"><title>Contato | Move Pilates & Bem-estar</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-move.svg"><link rel="stylesheet" href="assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="app.css">
+<script defer src="assets/vendor/bootstrap.bundle.min.js"></script><script defer src="script.js"></script><script defer src="store.js"></script><script defer src="app.js"></script></head>
+<body data-page="contato"><a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+  <header class="site-header"><div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Move — Início"><img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="154" height="62"></a>
+    <button type="button" class="menu-toggle" aria-label="Abrir menu" aria-controls="menu-principal" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="main-nav" id="menu-principal" aria-label="Menu principal"><a href="index.html" class="nav-item">Início</a><a href="contato.html" class="nav-item">Contato</a><a href="login.html" class="nav-item nav-login">Entrar</a></nav>
+  </div></header>
+<main id="conteudo"><section class="auth-outer"><div class="auth-panel contact-panel card-elevated">
+<img src="assets/logo-move.svg" alt="Move — Pilates & Bem-estar" class="auth-logo">
+<div class="section-heading-tight"><span class="accent-line" aria-hidden="true"></span><h1>Fale com a Move</h1><p>Envie sua dúvida ou mensagem para o nosso estúdio.</p></div>
+<form id="contact-form" class="stack-form" novalidate>
+<div class="form-field"><label for="contact-name">Nome <span aria-hidden="true">*</span></label><input id="contact-name" name="name" placeholder="Digite seu nome" autocomplete="name" required></div>
+<div class="form-field"><label for="contact-email">E-mail <span aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" placeholder="Digite seu e-mail" autocomplete="email" required></div>
+<div class="form-field"><label for="contact-return">Como deseja receber nosso retorno? <span aria-hidden="true">*</span></label><select id="contact-return" name="returnMode" required><option value="">Selecione uma opção</option><option>WhatsApp</option><option>E-mail</option><option>Ligação</option></select></div>
+<div class="form-field"><label for="contact-subject">Assunto <span aria-hidden="true">*</span></label><select id="contact-subject" name="subject" required><option value="">Selecione uma opção</option><option>Elogios</option><option>Reclamações</option><option>Dúvidas</option><option>Aula de pilates</option></select></div>
+<div class="form-field"><label for="contact-message">Mensagem <span aria-hidden="true">*</span></label><textarea id="contact-message" name="message" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea></div>
+<p class="form-alert" id="contact-error" role="alert" hidden></p>
+<div class="form-actions"><button class="btn-main" type="submit">Enviar mensagem</button><a class="btn-outline" href="index.html">Voltar</a></div></form>
+<div id="contact-success" class="result-panel" hidden><span class="result-icon" aria-hidden="true">✓</span><h2>Mensagem enviada!</h2><p>Registramos sua mensagem nesta demonstração.</p><a class="btn-main" href="index.html">Voltar para Home</a></div>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html"><img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="136" height="56"></a><p>© <span id="ano-atual">2026</span> Move. Projeto acadêmico demonstrativo.</p><a class="footer-top" href="index.html">Início</a></div></footer>
+</body></html>

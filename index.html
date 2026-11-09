@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Move – Pilates & Bem-estar. Movimento, equilíbrio e cuidado em cada etapa. Conheça nosso estúdio e benefícios do Pilates em Novo Hamburgo." />
+  <title>Move | Pilates & Bem-estar</title>
+  <link rel="icon" href="assets/logo-move.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="app.css" />
+  <script defer src="assets/vendor/bootstrap.bundle.min.js"></script>
+  <script defer src="script.js"></script>
+  <script defer src="store.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body id="inicio" data-page="home">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner d-flex align-items-center justify-content-between">
+      <a class="brand" href="#inicio" aria-label="Move Pilates & Bem-estar — Início">
+        <img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="166" height="66" />
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+        <a class="nav-item active" href="#inicio" aria-current="page">Início</a>
+        <a class="nav-item" href="#localizacao">Contato</a>
+        <a class="nav-item nav-login" href="login.html">Entrar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <span class="blue-line" aria-hidden="true"></span>
+          <p class="eyebrow">PILATES &amp; BEM-ESTAR</p>
+          <h1 id="titulo-principal">Movimento que transforma<span class="dot">.</span></h1>
+          <p class="hero-lead">Encontre equilíbrio, força e bem-estar por meio do Pilates.</p>
+          <p class="hero-description">Um espaço para cuidar de você, respeitando seu ritmo em cada movimento.</p>
+        </div>
+        <div class="hero-media">
+          <img src="assets/studio.jpg" alt="Estúdio de Pilates Move com equipamentos e espaço preparado para as aulas" fetchpriority="high" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" aria-labelledby="titulo-sobre">
+      <div class="container about-layout">
+        <div class="about-content">
+          <span class="blue-line" aria-hidden="true"></span>
+          <h2 id="titulo-sobre">Sobre a Move</h2>
+          <p class="section-lead">Movimento, equilíbrio e cuidado em cada etapa.</p>
+          <p>A Move é um estúdio de Pilates dedicado a promover saúde, bem-estar e qualidade de vida por meio do movimento.</p>
+          <p>Acreditamos que cada pessoa possui necessidades e objetivos diferentes. Por isso, valorizamos um atendimento cuidadoso e respeitamos o ritmo individual de cada aluno.</p>
+        </div>
+        <div class="about-media">
+          <img src="assets/about.jpg" alt="Praticantes realizando exercícios de Pilates em aparelhos" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits section" aria-labelledby="titulo-beneficios">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="blue-line" aria-hidden="true"></span>
+          <h2 id="titulo-beneficios">Benefícios do Pilates</h2>
+          <p>Mais consciência corporal para a sua rotina.</p>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <img src="assets/strength.jpg" alt="Exercício de Pilates para força e flexibilidade" loading="lazy" />
+            <div class="benefit-info">
+              <div class="icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m6.5 6.5 11 11M5 8l3-3m8 14 3-3M3.5 10.5l7-7m3 17 7-7"/></svg>
+              </div>
+              <h3>Força e flexibilidade</h3>
+              <p>Desenvolva o controle dos movimentos e melhore sua mobilidade.</p>
+            </div>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/posture.jpg" alt="Praticante realizando atividade de equilíbrio com bola de Pilates" loading="lazy" />
+            <div class="benefit-info">
+              <div class="icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21c-4.5-1.5-7-5-7-8 3 0 5.4.8 7 3.5 1.6-2.7 4-3.5 7-3.5 0 3-2.5 6.5-7 8ZM12 16.5c-2.5-2.4-3.5-5.3 0-10 3.5 4.7 2.5 7.6 0 10ZM5 18c-1.8-1.4-2.5-3.5-2.5-5.5M19 18c1.8-1.4 2.5-3.5 2.5-5.5"/></svg>
+              </div>
+              <h3>Equilíbrio e postura</h3>
+              <p>Aprimore a consciência corporal e a qualidade dos seus movimentos.</p>
+            </div>
+          </article>
+          <article class="benefit-card">
+            <img src="assets/wellbeing.jpg" alt="Mulher sorrindo após sua prática de Pilates" loading="lazy" />
+            <div class="benefit-info">
+              <div class="icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20.6 8.6c0 4.1-8.6 10-8.6 10S3.4 12.7 3.4 8.6a4.6 4.6 0 0 1 8.6-2.3 4.6 4.6 0 0 1 8.6 2.3Z"/></svg>
+              </div>
+              <h3>Bem-estar</h3>
+              <p>Reserve um momento para cuidar do corpo e da mente.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section" id="localizacao" aria-labelledby="titulo-localizacao">
+      <div class="container location-layout">
+        <div class="location-content">
+          <span class="blue-line" aria-hidden="true"></span>
+          <p class="eyebrow">LOCALIZAÇÃO PRIVILEGIADA</p>
+          <h2 id="titulo-localizacao">Visite nosso espaço em Novo Hamburgo</h2>
+          <p class="location-lead">Estamos localizados em uma região central, com fácil acesso e um ambiente preparado para acolher você com conforto e tranquilidade.</p>
+          <div class="address-list" aria-label="Informações de localização do estúdio">
+            <div class="address-row">
+              <span class="address-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div><strong>Rua</strong><span>Rua Marcílio Dias</span></div>
+            </div>
+            <div class="address-row">
+              <span class="address-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V5l8-3 8 3v16M4 21h16M9 8h1m4 0h1M9 12h1m4 0h1M9 16h1m4 0h1"/></svg></span>
+              <div><strong>Bairro</strong><span>Centro</span></div>
+            </div>
+            <div class="address-row">
+              <span class="address-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 9h10M7 13h6"/></svg></span>
+              <div><strong>CEP</strong><span>93510-250</span></div>
+            </div>
+            <div class="address-row">
+              <span class="address-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l6-4 6 4v12M17 21V12h4v9M8 13h1m3 0h1m-5 4h1m3 0h1"/></svg></span>
+              <div><strong>Cidade</strong><span>Novo Hamburgo – RS</span></div>
+            </div>
+          </div>
+          <a class="home-contact-btn" href="contato.html" aria-label="Abrir o formulário de contato da Move">Fale conosco <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="map-panel">
+          <img src="assets/mapa-novo-hamburgo.png" alt="Mapa ilustrativo do Centro de Novo Hamburgo, próximo à Rua Marcílio Dias" loading="lazy" />
+          <span class="map-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2"/></svg> Novo Hamburgo — RS</span>
+          <button type="button" class="map-zoom-btn" id="ampliar-mapa" aria-haspopup="dialog" aria-controls="mapa-dialog" title="Ampliar mapa">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v4M16 4h4v4M4 16v4h4M20 16v4h-4"/></svg><span>Ampliar mapa</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#inicio" aria-label="Voltar ao início da Move">
+        <img src="assets/logo-move.svg" alt="Move Pilates & Bem-estar" width="136" height="56" />
+      </a>
+      <p>© <span id="ano-atual">2026</span> Move. Projeto acadêmico demonstrativo.</p>
+      <a class="footer-top" href="#inicio">Voltar ao início <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 14 5-5 5 5"/></svg></a>
+    </div>
+  </footer>
+
+  <dialog id="mapa-dialog" class="map-dialog" aria-labelledby="map-dialog-title" aria-describedby="map-dialog-description">
+    <div class="map-dialog-header">
+      <div>
+        <h2 id="map-dialog-title">Localização da Move</h2>
+        <p id="map-dialog-description">Mapa ilustrativo da região central de Novo Hamburgo — RS.</p>
+      </div>
+      <button type="button" id="fechar-mapa" class="map-dialog-close" aria-label="Fechar mapa ampliado">×</button>
+    </div>
+    <img src="assets/mapa-novo-hamburgo.png" alt="Mapa ilustrativo da região central de Novo Hamburgo" />
+    <div class="map-dialog-footer"><button type="button" id="fechar-mapa-rodape" class="map-dismiss-btn">Voltar para a Home</button></div>
+  </dialog>
+</body>
+</html>
